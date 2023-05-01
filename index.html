@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatApp - A Chatting Application</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ChatApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#screenshots">Screenshots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#download">Download</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">ChatApp</h1>
+      <p class="lead">A Chatting Application</p>
+      <hr class="my-4">
+      <p>Chat with your friends anytime, anywhere using ChatApp. Download now!</p>
+      <a class="btn btn-primary btn-lg" href="#download" role="button">Download</a>
+    </div>
+  </div>
+
+  <!-- Screenshots -->
+  <div class="container" id="screenshots">
+    <h2 class="text-center my-5">Screenshots</h2>
+    <center>
+    <div class="row">
+      <div class="col-md-2 mb-4">
+        <img class="img-fluid" src="images/1.jpg" alt="Screenshot 1">
+      </div>
+      <div class="col-md-2 mb-4">
+        <img class="img-fluid" src="images/2.jpg" alt="Screenshot 2">
+      </div>
+      <div class="col-md-2 mb-4">
+        <img class="img-fluid" src="images/3.jpg" alt="Screenshot 3">
+      </div>
+      <div class="col-md-2 mb-4">
+        <img class="img-fluid" src="images/4.jpg" alt="Screenshot 4">
+      </div>
+      <div class="col-md-2 mb-4">
+        <img class="img-fluid" src="images/5.jpg" alt="Screenshot 5">
+      </div>
+    </div>
+</center>
+  </div>
+
+  <!-- Download -->
+  <div class="container bg-light py-5" id="download" style="margin-bottom: 40px;">
+    <center>
+    <div class="row">
+      <div class="col-md-7 mb-4">
+        <h2>Download ChatApp</h2>
+        <p class="lead">Get started with ChatApp today!</p>
+        <a class="btn btn-primary btn-lg" href="apk/app-release.apk" role="button" download>Download for Android</a>
+        <a class="btn btn-outline-primary btn-lg" href="#" role="button" onclick="showMessage()">Download for iOS</a>
+      </div>
+      <div class="col-md-4 mb-2">
+        <img class="img-fluid" src="images/logo.png" alt="Download ChatApp">
+      </div>
+    </div>
+    </center>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Sorry, ChatApp is currently not available for iOS. We'll make it available as soon as possible");
+    }
+    </script>
+    
+<!-- Developer section -->
+<div class="container py-5" id="developer">
+    <div class="row">
+      <div class="col-md-6 mb-4 mx-auto text-center">
+        <img src="images/developer.png" height="120px" class="rounded-circle mb-3" alt="Developer Profile">
+        <h2>Vishal Maurya</h2>
+        <p class="lead">Software Developer</p>
+        <p>Final Year Student @ Guru Nanak Dev Engineering College, Ldh</p>
+        <p>Bachelors of Technology (Informtion Technology)</p>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid" src="images/logo.png" height="120" width="120" alt="Download ChatApp">
+              </div>
+            <div class="col-md-3">
+              <h4>Connect with us</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.instagram.com/_vishal79_"><i class="fa fa-instagram" style="font-size:20px;color:white"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/vishal-mauriya/"><i class="fa fa-linkedin" style="font-size:20px;color:white"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/VishalMauriya"><i class="fa fa-github" style="font-size:20px;color:white"></i> GitHub</a></li>
+                <li><a href="https://www.twitter.com/_vishal79_"><i class="fa fa-twitter" style="font-size:20px;color:white"></i> Twitter</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>About ChatApp</h4>
+              <p>Chat with your friends, make groups anytime, anywhere using ChatApp with end-to-end encryption</p>
+            </div>
+            <div class="col-md-3">
+              <h4>Contact us</h4>
+              <ul class="list-unstyled">
+                <li><i class="fa fa-map-marker"></i> Ludhiana, Punjab, India</li>
+                <li><i class="fa fa-phone"></i> xxxxxxxxxx</li>
+                <li><i class="fa fa-envelope"></i> info@chatapp.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <center>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> ChatApp. All rights reserved.</p>
+                  </div>
+            </div>
+          </div>
+        </center>
+      </footer>
+</body>
+</html>
